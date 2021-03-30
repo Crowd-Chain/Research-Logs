@@ -31,6 +31,7 @@ Investigated what data could be spoofed:
   * Reports do not carry any information besides user coordinates at this time.
   * *Can a reporter fake another reporter?* 
   * Mark by UUID? User accounts?
+  * PoW Blockchain? (Very costly)
   * **To be further investigated.**
 * Metadata spoofing:
   * Reports do not carry any metadata payload at this time.

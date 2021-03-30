@@ -18,7 +18,7 @@ Investigated what data could be spoofed:
   * A malicious or unsuspecting user could falsely report their time.
   * **Working Solution: Generate a timestamp on the serverside at the time of reporting.**
 * Report spoofing:
-  * A malicious or unsuspecting user could falsely report their time.
+  * A malicious or unsuspecting user could falsely report an event that isn't occuring.
   * **Proposed Solution: "Blind Reports"**
     * Reports aren't made visible immediately. Instead they are first sent to another table where users have write access only.
     * During a grace period, if similar/identical event reports are reported in the BLIND table, they are pushed to the reports table where they become visible.

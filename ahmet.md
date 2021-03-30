@@ -1,11 +1,12 @@
-# 31 March - 2021:
+# Log
+### 31 March - 2021:
 Need to research: 
 * Details of LDP implementation
 * How to do Blind Reports (in the light of peer-to-peer research from group members)
 * Modification to device location services (Geospoofing)
 * TBI (Misreports, User spoofing, Metadata spoofing)
 
-# 22 March - 30 March 2021: 
+### 22 March - 30 March 2021: 
 Investigated what data could be spoofed:
 * Geospoofing: 
   * A malicious user could fake their coordinates. 

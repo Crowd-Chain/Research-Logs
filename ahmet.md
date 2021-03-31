@@ -1,10 +1,15 @@
 # Log
-### 31 March - 2021:
-Need to research: 
+
+TODO:
 * Details of LDP implementation
 * How to do Blind Reports (in the light of peer-to-peer research from group members)
 * Modification to device location services (Geospoofing)
 * TBI (Misreports, User spoofing, Metadata spoofing)
+
+### 1 April 2021:
+
+### 31 March 2021:
+Read through geospatial techniques in LDP, [Local Differential Privacy on Metric Spaces: optimizing the trade-off with utility](https://ieeexplore.ieee.org/abstract/document/8429310?casa_token=O8AToF7tGy0AAAAA:uQtYMM1a_Btksx8yR9Yi8ehB8mCxAmCfUjUbUPiMln-EtrmC2m20z06XxX1ky1R4lQ1HkMKGqi4)
 
 ### 22 March - 30 March 2021: 
 Investigated what data could be spoofed:

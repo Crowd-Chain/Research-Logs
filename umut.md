@@ -40,8 +40,10 @@ Overlay networks share four qualities:
 
 Because overlay networks define neighbor nodes by content stored, they can change search from a standard graph-traversal problem into a localized iterative process. In this process, each hop brings the query closer to its target set of hops, which can be calculated according to a mathematical function. This reduces the overall network load and makes the query process deterministic. In abstract terms, an overlay network operates like a distributed hash table by allowing key insertion, querying, and removal. Typically, it derives those keys from the node-exposed content by, for example, using a consistent hashing algorithm such as the secure hash algorithm (SHA-1).  
 
-An overlay network’s connectivity pattern is different from that obtained using a TTL-based algorithm in that it is structured and typically symmetrical. The structure is based on one or more mathematical functions that determine how the nodes are connected. The network’s structure contributes to the overlays’ bound lookup times. When nodes fail, overlay network algorithms provide mechanisms that let the network recover and recreate or maintain an appropriate network structure. 
- 
+An overlay network’s connectivity pattern is different from that obtained using a TTL-based algorithm in that it is structured and typically symmetrical. The structure is based on one or more mathematical functions that determine how the nodes are connected. The network’s structure contributes to the overlays’ bound lookup times. When nodes fail, overlay network algorithms provide mechanisms that let the network recover and recreate or maintain an appropriate network structure.
+
+![overlaynetw](https://user-images.githubusercontent.com/66557091/113258036-14864d00-92d4-11eb-8f25-7088240852cd.png)
+Figure 1: Sample overlay network and query's topology. 
 
 Acquired from: DD, Doval & O'Mahony, Donal. (2003). Overlay networks: A scalable alternative for P2P. Internet Computing, IEEE. 7. 79 - 82. 10.1109/MIC.2003.1215663. 
 

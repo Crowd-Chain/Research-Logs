@@ -11,11 +11,11 @@
 
 ### A new approach to crowd journalism using a blockchain-based infrastructure (Leonardo Teixeira, Ivone Amorim, Alexandre Ulisses Silva)
 
-"Permissioned blockchain: "The intrinsic configuration of such blockchains controls the participants' transactions and defines their roles in which each participant can access and contribute to the blockchain. Maintain an access control layer to allow certain actions to be performed only by certain identifiable participants.		They are crafted to take advantage of blockchains without sacrificing the authority aspect of a centralized system."
+"Permissioned blockchain: "The intrinsic configuration of such blockchains controls the participants' transactions and defines their roles in which each participant can access and contribute to the blockchain. Maintain an access control layer to allow certain actions to be performed only by certain identifiable participants. They are crafted to take advantage of blockchains without sacrificing the authority aspect of a centralized system."
 
 "Proof ofWork (PoW) is the lottery-based algorithm used by the Bitcoin blockchain network and it is based on the premise that a node must use computational power to prove that it has no malicious intent to tamper with the network. On the other hand, the Proof of Stake (PoS) stands out for its absence of complicated and expensive calculations. This method states that participants who have more digital assets of the cryptocurrency would be less likely to act maliciously on the network and so they are more likely to be chosen to forge the new block. Along with these two, there are many other lottery-based algorithms to define a network consensus (Proof of Authority (PoA), Proof of Elapsed Time (PoET), Proof of Burn (PoB), etc.)."
 
-### Contributions to our project
+#### Contributions to our project
 * 
 
 ### AI Blockchain Platform for Trusting News(Zonyin Shae, Jeffrey J.P. Tsai)
@@ -33,6 +33,8 @@ The information in these public records considered above should have been offici
 
 ![AINews](https://user-images.githubusercontent.com/54986089/113020136-f95bf600-918a-11eb-91f0-4af35d5ae35d.PNG)
 
+#### Contributions to our project
+*
 
 ### Overlay Networks: A Scalable Alternative for P2P(Diego Doval and Donal O’Mahony • Trinity College Dublin)
 
@@ -56,3 +58,6 @@ The information in these public records considered above should have been offici
 "When nodes fail, overlay network algorithms provide mechanisms that let the network recover and recreate or maintain an appropriate network structure."
 
 "Lookup data on the basis of identifiers derived from the content, and thus don’t directly support keyword-based searching."
+
+#### Contributions to our project
+*

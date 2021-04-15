@@ -15,8 +15,12 @@
 
 "Proof ofWork (PoW) is the lottery-based algorithm used by the Bitcoin blockchain network and it is based on the premise that a node must use computational power to prove that it has no malicious intent to tamper with the network. On the other hand, the Proof of Stake (PoS) stands out for its absence of complicated and expensive calculations. This method states that participants who have more digital assets of the cryptocurrency would be less likely to act maliciously on the network and so they are more likely to be chosen to forge the new block. Along with these two, there are many other lottery-based algorithms to define a network consensus (Proof of Authority (PoA), Proof of Elapsed Time (PoET), Proof of Burn (PoB), etc.)."
 
-#### Contributions to our project
-* 
+#### Contributions to our project and possible problems
+* Permissioned blockchain could allow us to choose who can submit reports.
+	* Need a central authority to give/take permissions 
+* PoW could allow our users to contribute to the consensus.
+	* Computationally intensive and if PoS is to be implemented requires incentives 
+	* Users to be chosen for consensus need to be trustworthy. How do we build an inital group of core consensus nodes?
 
 ### AI Blockchain Platform for Trusting News(Zonyin Shae, Jeffrey J.P. Tsai)
 
@@ -33,8 +37,10 @@ The information in these public records considered above should have been offici
 
 ![AINews](https://user-images.githubusercontent.com/54986089/113020136-f95bf600-918a-11eb-91f0-4af35d5ae35d.PNG)
 
-#### Contributions to our project
-*
+#### Contributions to our project and possible problems
+* We could employ a database similar to the factual database where reports that are validated are put into. And combine it with a reputation system where users who report on validated events and are near that event, acquire points.
+	* VPNs could be used to fake geolocation and earn reputation.
+	* In our case, factual databases aren't validated using previous speeches or statements since it is an emergency announcement system. Therefore validation is problematic.
 
 ### Overlay Networks: A Scalable Alternative for P2P(Diego Doval and Donal O’Mahony • Trinity College Dublin)
 
@@ -52,12 +58,14 @@ The information in these public records considered above should have been offici
 
 "Chord: organize the network on the basis of each participating node’s IP address * other networks use the node’s stored data as the organizing content *"
 
-"In abstract terms, an overlay network operates like a distributed hash table by allowing key insertion, querying, and removal. Typically, it derives those keys
-	from the node-exposed content by, for example, using a consistent hashing algorithm such as the secure hash algorithm"
+"In abstract terms, an overlay network operates like a distributed hash table by allowing key insertion, querying, and removal. Typically, it derives those keys from the node-exposed content by, for example, using a consistent hashing algorithm such as the secure hash algorithm"
 
 "When nodes fail, overlay network algorithms provide mechanisms that let the network recover and recreate or maintain an appropriate network structure."
 
 "Lookup data on the basis of identifiers derived from the content, and thus don’t directly support keyword-based searching."
 
-#### Contributions to our project
-*
+#### Contributions to our project and possible problems
+* We could implement a geographical-closeness based P2P network where nodes usually communicate with other nodes near the same geographical position and hold a ledger concerning that area to avoid flodding.(Chord structure based on IP address)
+
+
+#The implementation of these research topics was limited by a time constraint.

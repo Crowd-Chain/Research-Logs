@@ -64,8 +64,13 @@ The information in these public records considered above should have been offici
 
 "Lookup data on the basis of identifiers derived from the content, and thus don’t directly support keyword-based searching."
 
+![image](https://user-images.githubusercontent.com/54986089/114920840-8ca35580-9e32-11eb-92d4-ef214705e71c.png)
+
+
 #### Contributions to our project and possible problems
 * We could implement a geographical-closeness based P2P network where nodes usually communicate with other nodes near the same geographical position and hold a ledger concerning that area to avoid flodding.(Chord structure based on IP address)
 
 
-#The implementation of these research topics was limited by a time constraint.
+# The implementation of these research topics was limited by a time constraint.
+
+

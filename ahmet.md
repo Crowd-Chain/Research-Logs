@@ -39,7 +39,9 @@ Then this distance between reports, especially temporal distance, can help us wi
 
 **Network Architecture:**
 
-Because timestamps are generated server-side, factoring in this timestamp will require us to centralize the Crowdie network (which might warrant a name change). So instead of a peer-to-peer network, it will be a master-worker relationship. Our reports protocol is already designed to be usable by independent services, but the question of whether or not there can be multiple "news hubs" in the network, is outside the scope of what we wish to achieve by the final demo of this project.
+Because timestamps are generated server-side, factoring in this timestamp will require us to centralize the Crowdie* network (which might warrant a name change). So instead of a peer-to-peer network, it will be a master-worker relationship. Our reports protocol is already designed to be usable by independent services, but the question of whether or not there can be multiple "news hubs" in the network, is outside the scope of what we wish to achieve by the final demo of this project.
+
+* Renamed CrowdChain to Crowdie on April 16, 2020
 
 ### 31 March 2021:
 Read through geospatial techniques in LDP:

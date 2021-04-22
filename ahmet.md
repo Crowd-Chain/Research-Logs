@@ -1,9 +1,25 @@
 # Log
 
 TODO:
+* Anomaly Detection Algorithm Choice
 * Details of LDP implementation
 * Modification to device location services (Geospoofing)
-* TBI (Misreports, User spoofing, Metadata spoofing)
+* TBI (Metadata spoofing)
+
+### 9-23 April 2021:
+
+Issue of User Spoofing:
+
+Resolved by account authentication. In the previous weeks we introduced in a log-in system.
+
+Issue of Misreporting:
+
+Two Phases:
+1. Anomaly Removal
+2. Clustering
+
+Why not both at the same time?
+
 
 ### 1-8 April 2021:
 

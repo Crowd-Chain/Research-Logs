@@ -16,7 +16,7 @@ Issue of Misreporting:
 
 Two Phases:
 1. Anomaly Removal
-2. Clustering
+2. Real-time Clustering with [React Native Map Clustering](https://github.com/venits/react-native-map-clustering)
 
 Why not both at the same time?
 

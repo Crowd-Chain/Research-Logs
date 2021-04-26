@@ -18,8 +18,14 @@ Two Phases:
 1. Anomaly Removal
 2. Real-time Clustering with [React Native Map Clustering](https://github.com/venits/react-native-map-clustering)
 
-Why not both at the same time?
+Q: Why not both at the same time?
+A: Geospatial clustering libraries don't seem to like higher dimensionality. As such, a preliminary anomaly removal phase (accounting for space AND time) followed by geospatial clustering will be easier to implement. To that end we're considering using React Native Map Clustering, which comes with a lot of useful built-in features.
 
+After [investigating](https://towardsdatascience.com/unsupervised-anomaly-detection-on-time-series-9bcee10ab473) [anomaly detection](https://medium.com/learningdatascience/anomaly-detection-techniques-in-python-50f650c75aaf) techniques we decided that an Isolation Forest and Local Outlier Factor implementation would work best in our case.
+
+At this stage we are using the flexible [Isolation-Forest](https://www.npmjs.com/package/isolation-forest) package, because it allows us to also use time as third a dimension.
+
+Todo: Look into Extended Isolation Forests.
 
 ### 1-8 April 2021:
 
